@@ -3,17 +3,11 @@ $body-color: whitesmoke;
 $primary: #452ca9;
 $secondary: #e5245c;
 $dark: rgb(40, 40, 40);
-//$custom-colors: (
-//   "mcpt-red": #e5245c,
-//   "mcpt-blue": #452ca9
-// );
 @import "~bootstrap/scss/bootstrap";
-//$theme-colors: map-merge($theme-colors, $custom-colors);
-// .customimagebg {
-//     background: black url('../../assets/trollFace.jpg');
-//     background-size: cover;
-// }
 .dropdown-menu > li > a:focus,
 .dropdown-menu>li>a:hover {
     background-color: $secondary; 
+}
+.accordion-item {
+    background-color: $primary;
 }
