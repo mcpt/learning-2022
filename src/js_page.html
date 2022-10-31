@@ -13,8 +13,89 @@
         <a href ="index.html" class="btn btn-secondary text-white" style ="justify-content: center;">Return to main page</a>
     </div>
     <div class="container py-4 px-3 mt-5 mx-auto position-relative">
-        <div class="position-absolute top-0 start-50 translate-middle">
-          <h1 style = "color: whitesmoke">Javascript (JS)</h1>
+        <div class="mb-5 position-absolute top-0 start-50 translate-middle ">
+          <h1 style = "color: whitesmoke; margin-bottom: 50px;">Javascript (JS)</h1>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#item-1">What is Javascript?</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-1-1">Basic Syntax and Typing</a>
+                <a class ="nav-link ms-3 my-1" href="#item-1-2">Variables</a>
+                <a class="nav-link ms-3 my-1" href="#item-1-3">Functions</a>
+              </nav>
+              <a class="nav-link" href="#item-2">Item 2</a>
+              <a class="nav-link" href="#item-3">Item 3</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+              </nav>
+            </nav>
+          </nav>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+            <div id="item-1">
+              <h4>What is Javascript?</h4>
+              <p>Javascript is a multi-paradigm and an Object-Oriented programming language</p>
+              <p>It also has the ability to manipulate HTML with the DOM API</p>
+            </div>
+            <div id="item-1-1">
+              <h5>Basic Syntax and Typing</h5>
+              <p>Semicolons optional <br>Javascript has 6 types of primitive variables:<br><ul>
+                <li>null</li>
+                <li>undefined</li>
+                <li>numbers</li>
+                <li>strings</li>
+                <li>booleans</li>
+                <li>symbols</li>
+              </ul></p>
+            </div>
+            <div id="item-1-2">
+              <h5>Variables</h5>
+              <p>There are 3 ways to declare variables in Javascript<ul>
+                <li>let<ul>
+                  <li>"Standard" way to declare variables</li>
+                  <li>Allows variables to be rebound later</li>
+                  <li>Has block scope</li>
+                </ul></li>
+                <li>var<ul>
+                  <li>Used between 1995-2015</li>
+                  <li>Mostly now found in legacy code</li>
+                  <li>Can store anything</li>
+                  <li>Allows variables to be rebound later</li>
+                  <li>Has function scope</li>
+                </li>
+                <li>const<ul>
+                  <li>Used to store constants</li>
+                  <li>Unable to be rebound later</li>
+                  <li>Has block scope</li></li>
+              </ul></p>
+            </div>
+            <div id="item-1-3">
+              <h5>Functions</h5>
+              <p>Functions are conceptually similar to methods in Java (though they have some different properties)<br>Functions can be declared using <code>function()</code> or as an "arrow function" using <code>()=></code></p>
+            </div>
+            <div id="item-2">
+              <h4>Item 2</h4>
+              <p>...</p>
+            </div>
+            <div id="item-3">
+              <h4>Item 3</h4>
+              <p>...</p>
+            </div>
+            <div id="item-3-1">
+              <h5>Item 3-1</h5>
+              <p>...</p>
+            </div>
+            <div id="item-3-2">
+              <h5>Item 3-2</h5>
+              <p>...</p>
+            </div>
+          </div>
+        </div>
       </div>
   </body>
   </html>
