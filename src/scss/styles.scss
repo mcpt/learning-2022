@@ -3,7 +3,7 @@ $body-color: whitesmoke;
 $primary: #452ca9;
 $secondary: #e5245c;
 $dark: rgb(40, 40, 40);
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/scss/bootstrap";
 .dropdown-menu > li > a:focus,
 .dropdown-menu>li>a:hover {
     background-color: $secondary; 
